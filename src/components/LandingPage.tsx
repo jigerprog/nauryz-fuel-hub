@@ -6,6 +6,7 @@ import Capacities from '@/components/Capacities';
 import Services from '@/components/Services';
 import Contacts from '@/components/Contacts';
 import Footer from '@/components/Footer';
+import AiAdvisor from '@/components/AiAdvisor';
 
 const LandingPage = () => {
   return (
@@ -16,6 +17,7 @@ const LandingPage = () => {
         <About />
         <Capacities />
         <Services />
+        <AiAdvisor />
         <Contacts />
       </main>
       <Footer />
